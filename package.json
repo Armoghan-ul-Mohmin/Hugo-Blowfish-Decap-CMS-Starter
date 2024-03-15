@@ -1,0 +1,27 @@
+{
+  "name": "hugo-blowfish-decap-cms-starter",
+  "version": "1.0.0",
+  "description": "Hugo Module for Blowfish theme to use Decap CMS ",
+  "scripts": {
+    "npm-check": "npm-check -u",
+    "dev": "hugo server --buildDrafts --buildFuture --buildExpired --gc --logLevel info --watch",
+    "prod": "hugo server --buildDrafts --buildFuture --buildExpired --gc --logLevel info --watch  -e production",
+    "build": "hugo --gc --logLevel info --cleanDestinationDir --minify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Armoghan-ul-Mohmin/Hugo-Blowfish-Decap-CMS-Starter.git"
+  },
+  "keywords": [
+    "Hugo",
+    "Hugo-Module",
+    "Blowfish",
+    "Decap-CMS"
+  ],
+  "author": "Armoghan-ul-Mohmin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Armoghan-ul-Mohmin/Hugo-Blowfish-Decap-CMS-Starter/issues"
+  },
+  "homepage": "https://github.com/Armoghan-ul-Mohmin/Hugo-Blowfish-Decap-CMS-Starter#readme"
+}
