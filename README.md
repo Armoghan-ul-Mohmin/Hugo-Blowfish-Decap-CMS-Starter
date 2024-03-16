@@ -74,6 +74,7 @@ Edit your project's configuration file based on the format you are using (YAML, 
  ```
 
    Update the parameters according to your project's requirements. 
+   
  4. **Configure Netlify Identity**: If you plan to deploy your website on Netlify, configure Netlify Identity to enable user authentication and access control for Decap CMS.
  5. **Start Managing Content**: Once everything is set up, you can start managing your website's content using Decap CMS. Create pages, add media, and manage user access as needed.
 
