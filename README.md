@@ -62,14 +62,42 @@ Edit your project's configuration file based on the format you are using (YAML, 
    - Edit the `config/_default/params.toml` file to define parameters for your project. For example:
 
  ```toml
-     
+     [DecapCMS]
+      development = true
+      # branch = ""
+      media = "/static/images"
+      public = "/images"
+      PublishMode = "editorial_workflow"
+      # logo = ""
+      preview = true
+      search = false
  ```
  #### config/_default/params.yaml
  ```yaml
-     
+     DecapCMS:
+      development: true
+      # branch: ""
+      media: "/static/images"
+      public: "/images"
+      PublishMode: "editorial_workflow"
+      # logo: ""
+      preview: true
+      search: false
  ```
  #### config/_default/params.json
  ```json
+{
+  "DecapCMS": {
+    "development": true,
+    // "branch": "",
+    "media": "/static/images",
+    "public": "/images",
+    "PublishMode": "editorial_workflow",
+    // "logo": "",
+    "preview": true,
+    "search": false
+  }
+}
      
  ```
 
