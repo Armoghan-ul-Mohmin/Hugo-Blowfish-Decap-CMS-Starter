@@ -1,0 +1,11 @@
+[params]
+DecapSettings = true
+[params.DecapCMS]
+development = true
+# branch = ""
+media = "/static/images"
+public = "/images"
+PublishMode = "editorial_workflow"
+# logo = ""
+preview = true
+search = false
