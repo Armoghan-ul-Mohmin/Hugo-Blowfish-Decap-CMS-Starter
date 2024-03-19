@@ -1,17 +1,6 @@
-{{ if .Site.Params.DecapCMS.development }}
-# Development mode configuration
 backend:
-  name: test-repo
-local_backend:
-  url: http://localhost:8081/api/v1
-  allowed_hosts:
-    - "127.0.0.1"
-{{ else }}
-# Production mode configuration
-backend:
-  name: git-gateway
-  branch: "{{ .Site.Params.DecapCMS.branch }}"
-{{ end }}
+  name: 'test-repo'
+  login: false
 # Folder for storing media files
 media_folder: "{{ .Site.Params.DecapCMS.media }}"
 # Public URL path for accessing media files
