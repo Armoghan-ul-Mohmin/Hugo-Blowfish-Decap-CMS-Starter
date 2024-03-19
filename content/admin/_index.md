@@ -1,3 +1,3 @@
 ---
-title: Admin
+title: Content Manager
 ---

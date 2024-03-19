@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>{{ .Site.Title }} | Content Manager</title>
+    <title>{{ .Site.Title }} | {{ .Title }}</title>
     <!-- Include the script that enables Netlify Identity on this page. -->
     {{- with resources.Get "lib/netlify-identity-widget.js" }}
       {{- if eq hugo.Environment "development" }}
@@ -36,7 +36,7 @@
     }}
     <link type="text/css" rel="stylesheet" href="{{ $bundleCSS.RelPermalink }}" integrity="{{ $bundleCSS.Data.Integrity }}" />
     <!-- Custom Css For CMS -->
-    {{ with resources.Get "css/decap.css" }}
+    {{ with resources.Get "css/DecapCMS.css" }}
       {{- if eq hugo.Environment "development" }}
         <link rel="stylesheet" href="{{ .RelPermalink }}" />
       {{- else }}

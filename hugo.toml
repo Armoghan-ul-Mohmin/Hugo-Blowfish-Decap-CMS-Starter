@@ -1,11 +1,10 @@
-[params]
-DecapSettings = true
-[params.DecapCMS]
-development = true
-# branch = ""
-media = "/static/images"
-public = "/images"
-PublishMode = "editorial_workflow"
-# logo = ""
-preview = true
-search = false
+[outputFormats.config]
+baseName = "config"
+isPlainText = true
+mediaType = "application/yaml"
+notAlternative = false
+
+[mediaTypes."application/yaml"]
+suffixes = ["yml"]
+
+

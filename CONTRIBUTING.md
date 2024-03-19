@@ -6,8 +6,8 @@ Welcome to the Hugo Blowfish Decap CMS Starter project! We appreciate your inter
 
 ### Found a Bug? 🐛
 
-- **Check Existing Issues:** Search [GitHub Issues](https://github.com/Armoghan-ul-Mohmin/Hugo-Blowfish-Decap-CMS-Starter/issues) to ensure the bug hasn't already been reported.
-- **Report a Bug:** If not found, [open a new issue](https://github.com/Armoghan-ul-Mohmin/Hugo-Blowfish-Decap-CMS-Starter/issues/new) with a clear title, description, code sample, screenshot, or test case demonstrating the issue.
+- **Check Existing Issues:** Search [GitHub Issues](https://github.com/Armoghan-ul-Mohmin/Hugo-Blowfish-Decap-CMS-Module/issues) to ensure the bug hasn't already been reported.
+- **Report a Bug:** If not found, [open a new issue](https://github.com/Armoghan-ul-Mohmin/Hugo-Blowfish-Decap-CMS-Module/issues/new) with a clear title, description, code sample, screenshot, or test case demonstrating the issue.
 - **Use Templates:** Prefer using bug report templates when creating new issues.
 
 ### Have a Patch?
@@ -19,13 +19,13 @@ Welcome to the Hugo Blowfish Decap CMS Starter project! We appreciate your inter
 
 ### Adding or Changing Features
 
-- **Discuss First:** Before implementation, open a [new discussion](https://github.com/Armoghan-ul-Mohmin/Hugo-Blowfish-Decap-CMS-Starter/discussions/new) to suggest your idea and ensure it aligns with the project's design and roadmap.
+- **Discuss First:** Before implementation, open a [new discussion](https://github.com/Armoghan-ul-Mohmin/Hugo-Blowfish-Decap-CMS-Module/discussions/new) to suggest your idea and ensure it aligns with the project's design and roadmap.
 - **Check Discussions:** Look for similar ideas in existing discussions before opening a new one.
 - **PR Submission:** If the community supports your idea, submit a PR with the feature.
 
 ## Questions? 🙋‍♀️
 
-- **General Questions:** Ask using [GitHub Discussions](https://github.com/Armoghan-ul-Mohmin/Hugo-Blowfish-Decap-CMS-Starter/discussions) in the "Q&A" category.
+- **General Questions:** Ask using [GitHub Discussions](https://github.com/Armoghan-ul-Mohmin/Hugo-Blowfish-Decap-CMS-Module/discussions) in the "Q&A" category.
 - **Search First:** Check existing Q&A discussions before posting a new question.
 
 ## Coding Conventions
